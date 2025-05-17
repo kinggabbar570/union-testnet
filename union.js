@@ -10,14 +10,14 @@ const rl = readline.createInterface({
 // Network configurations
 const networks = {
   '1': {
-    name: 'Arbitrum Sepolia',
-    rpc: 'https://sepolia-rollup.arbitrum.io/rpc',
-    address: '0xBd346331b31f8C43CC378286Bfe49f2f7F128c39'
+    name: 'Ethereum Sepolia',
+    rpc: 'https://ethereum-sepolia-rpc.publicnode.com',
+    address: '0xd38E5c25935291fFD51C9d66C3B7384494bb099A'
   },
   '2': {
-    name: 'Berachain bArtion Testnet',
-    rpc: 'https://bartio.rpc.berachain.com/',
-    address: '0x6F270608fB562133777AF0f71F6386ffc1737C30'
+    name: 'Babylon Testnet',
+    rpc: 'https://babylon-testnet-rpc.nodes.guru',
+    address: '0x210618DD6434D2AB1e2703A43da8E141C5De5201'
   }
 };
 
